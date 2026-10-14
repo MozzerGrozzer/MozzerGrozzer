@@ -1,83 +1,23 @@
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
-    <style>
-        .container{
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: #4f4fff;
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-        }
-        h1{
-            font-family: "Anton SC", sans-serif;
-            color:#07062b;
-            font-size: 82px;
-            padding-bottom: 2px;
-            position:absolute;
-            top:21%;
-        }
-        .waveContainer{
-            display:flex;
-            transform: rotateZ(-2deg);
-            right:31%;
-            top:45%;
-        }
-        .waveText span {
-            display: inline-block;
-            font-family: "Caprasimo", serif;
-            font-size: 110px;
-            color:white;
-            animation: wave 1.3s ease-in-out infinite;
-        }
-        .waveText span:nth-child(1) {
-            animation-delay: 0s;
-        }
-        .waveText span:nth-child(2) {
-            animation-delay: 0.1s;
-        }
-        .waveText span:nth-child(3) {
-            animation-delay: 0.2s;
-        }
-        .waveText span:nth-child(4) {
-            animation-delay: 0.3s;
-        }
-        .waveText span:nth-child(5) {
-            animation-delay: 0.4s;
-        }
-        .waveText span:nth-child(6) {
-            animation-delay: 0.5s;
-        }
-        @keyframes wave {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-15px);
-            }
-        }
-        p{
-            color:white;
-            font-family: "Oswald", sans-serif;
-            font-size: 20px;
-        }
-    </style>
-</head>
-<div class="container">
-        <h1>Hi! My name is</h1>
-        <div class="waveContainer">
-            <p class="waveText">
-                <span>M</span><span>O</span><span>Z</span><span>Z</span><span>E</span><span>R</span>
-            </p>
-        </div>
-        <p>
-            Meu nome é Heitor e eu sou graphic designer e programador.
-        </p>
-        <img src="./assets/casagrandeBLob.svg" alt="" id="casagrandeBlob" width="20%">
-        <p align='center'>E essa é minha criatura <br> Kate Casagrande</p>
-    </div>
+<p align="center">
+    <img src="./assets/logo-branca.png" alt='MozzerGrozzer logo' width=50%>
+</p>
+
+<p> <h2 align="center"> Graphic Designer and FrontEnd Developer!
+</h2>
+<br>
+<p align="center">Hi, my name is Heitor M.S., i from Brazil and im a Graphic Designer and a FrontEnd Designer! <br> I love animals and i make a ton of different 
+</p>
+<p> <h3 align="center">What i use:</h3>
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width=5%/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width=5%/>
+    <h3> languages: </h3>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width=5%/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width=5% />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width=5%/>
+
+          
+</p>
+<img src="./assets/javascript.jpg" alt="Kitty Kate Casagrande looking at a computer, the words: 'javascript' is written over her head" width=50%>
+<p align="center">^kitty Kate Casagrande^
+<!--Atualizar sempre se caso-->
